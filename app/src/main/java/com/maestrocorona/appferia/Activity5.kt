@@ -41,7 +41,7 @@ fun FifthScreen(onBackPressed: () -> Unit) {
         ) {
             // Texto
             Text(
-                text = "\n\uD83C\uDFA1ATRACCIÓN Y CONCIERTOS\n\n",
+                text = "\n\n\uD83C\uDFA1ATRACCIÓN Y CONCIERTOS\n\n",
                 modifier = Modifier.padding(horizontal = 8.dp),
                 textAlign = TextAlign.Justify
             )
