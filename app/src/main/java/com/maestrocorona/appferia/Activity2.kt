@@ -44,7 +44,7 @@ fun SecondScreen(onBackPressed: () -> Unit) {
                 onClick = onBackPressed,
                 modifier = Modifier.padding(top = 16.dp)
             ) {
-                Text("Fechas importantes")
+                Text("Regresar")
             }
         }
     }
