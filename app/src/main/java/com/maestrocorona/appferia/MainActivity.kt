@@ -156,15 +156,6 @@ fun MainScreen(
                 onNavigateToFifthActivity()
             }
 
-            // Botón
-            Button(
-                onClick = onNavigateToSecondActivity,
-                modifier = Modifier.padding(top = 16.dp),
-                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary)
-            ) {
-                Text("Fechas importantes", color = MaterialTheme.colorScheme.onPrimary)
-            }
-
 
         }
     }
